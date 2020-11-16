@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "876591015948",
+    "firebase_url": "https://pivotal-triode-291813.firebaseio.com",
+    "project_id": "pivotal-triode-291813",
+    "storage_bucket": "pivotal-triode-291813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876591015948:android:d862e8c8f42d5a08852629",
+        "android_client_info": {
+          "package_name": "com.example.coronagpsalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876591015948-u0grdr5iqfho2cl38b109kf5d03262bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtyZ-t1LpL1ou0v9w_oBFSbsE2Y4CnemY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876591015948-u0grdr5iqfho2cl38b109kf5d03262bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
