@@ -24,7 +24,6 @@ import java.util.List;
 import java.util.Locale;
 
 public class GPSPermission extends MainActivity {
-
     private final Activity mActivity;
     private final Context mContext;
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
@@ -138,7 +137,7 @@ public class GPSPermission extends MainActivity {
                 dialog.cancel();
             }
         });
-        builder.create().show();
+        builder.create();
     }
 
     @Override

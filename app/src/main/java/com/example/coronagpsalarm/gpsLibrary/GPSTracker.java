@@ -15,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
+import com.example.coronagpsalarm.AlarmService;
+
 public class GPSTracker extends Service implements LocationListener {
 
     private final Context mContext;
@@ -33,8 +35,7 @@ public class GPSTracker extends Service implements LocationListener {
 
     public Location getLocation() {
         try {
-            locationManager = (LocationManager) mContext.getSystemService(LOCATION_SERVICE);
-
+            locationManager = (LocationManager) getApplicationContext().getSystemService(LOCATION_SERVICE);
             // GPS 위성 신호를 통해 위치 정보 제공, 정확도는 높지만 실외에서만 작동 가능
             boolean isGPSEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
 
@@ -43,7 +44,6 @@ public class GPSTracker extends Service implements LocationListener {
 
             // GPS 혹은 네트워크를 통해 위치 정보를 받아올 수 있을 경우
             if(isGPSEnabled || isNetworkEnabled) {
-
                 int hasFineLocationPermission = ContextCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION);
                 int hasCoarseLocationPermission = ContextCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION);
 

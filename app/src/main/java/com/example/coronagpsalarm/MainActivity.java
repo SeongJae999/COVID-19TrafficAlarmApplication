@@ -11,6 +11,7 @@ import android.os.PowerManager;
 import android.util.Log;
 import android.view.MenuItem;
 
+import com.example.coronagpsalarm.gpsLibrary.GPSPermission;
 import com.example.coronagpsalarm.models.CoronaLocation;
 import com.example.coronagpsalarm.models.PatientInfo;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -111,8 +112,12 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
 
-                Intent intent = new Intent(MainActivity.this, AlarmService.class);
+                GPSPermission gpsPermission = new GPSPermission(getApplicationContext(), MainActivity.this);
+                gpsPermission.PermissionSetting();
 
+                ServiceThread serviceThread = new ServiceThread(MainActivity.this);
+                Intent intent = new Intent(MainActivity.this, AlarmService.class);
+                startService(intent);
             }
 
             @Override
