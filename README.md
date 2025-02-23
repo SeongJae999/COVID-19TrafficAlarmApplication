@@ -56,7 +56,7 @@
   > 권한 요청  
   ![image](https://github.com/user-attachments/assets/d6ad06f8-3d6f-46f8-98ae-197710ef62c7)
 
-  > 알람
+  > 알람  
   ![image](https://github.com/user-attachments/assets/62507b59-c8e1-4169-8bc0-4780b5837a28)  
   
 * 지도 화면  
