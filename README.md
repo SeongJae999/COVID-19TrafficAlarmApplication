@@ -7,7 +7,7 @@
 <br>
 
 # 프로젝트 구조도
-![image](https://github.com/user-attachments/assets/2b6413ab-2b1e-445a-b5c1-ce4744716d1e)
+![image](https://github.com/user-attachments/assets/f56b2444-a933-4a57-95fc-80ce4251f2bb)
 <br>
 
 # 개발 기간
@@ -18,7 +18,7 @@
 <div>
   <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
-  <img src="https://img.shields.io/badgefirebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white">
+  <img src="https://img.shields.io/badge/firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white">
 </div>
 
 # 
