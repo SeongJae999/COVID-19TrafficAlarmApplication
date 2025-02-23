@@ -42,6 +42,7 @@
   ![image](https://github.com/user-attachments/assets/eb91877c-31c2-4fa8-a64c-fe66d332480a)  
 
   스플래시 화면이 2초간 화면에 출력된다.
+<br>
 
 * 홈 화면
   > 홈 화면 1  
@@ -51,6 +52,7 @@
 
   > 홈 화면 2  
   ![image](https://github.com/user-attachments/assets/04ab1566-69f7-4dac-809a-e56a82367a7c)
+<br>
 
 * 권한 요청 및 알람
   > 권한 요청  
@@ -58,11 +60,13 @@
 
   > 알람  
   ![image](https://github.com/user-attachments/assets/62507b59-c8e1-4169-8bc0-4780b5837a28)  
-  
+<br>
+
 * 지도 화면  
   ![image](https://github.com/user-attachments/assets/b6dadfca-d3d1-4208-ba6c-98436bd06d81)
 
   MapView와 GoogleMapsAPI를 이용해 화면에 확진 환자 방문 지역 표시
+<br>
 
 * 뉴스 화면  
   ![image](https://github.com/user-attachments/assets/400cf637-5d3f-451b-a1ba-242d1bebfb38)
