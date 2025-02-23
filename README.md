@@ -44,12 +44,12 @@
   스플래시 화면이 2초간 화면에 출력된다.
 
 * 홈 화면
-  > 홈 화면 1
+  > 홈 화면 1  
   ![image](https://github.com/user-attachments/assets/3202b126-7419-4221-8cc5-77decb8663ac)  
 
   각종 코로나 19 바이러스 확진 환자 정보가 CardView 및 HorizontalBarChar로 표시된다.  
 
-  > 홈 화면 2
+  > 홈 화면 2  
   ![image](https://github.com/user-attachments/assets/04ab1566-69f7-4dac-809a-e56a82367a7c)
 
 * 권한 요청 및 알람
